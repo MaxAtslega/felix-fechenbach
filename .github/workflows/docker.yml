@@ -34,7 +34,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build
-      - name: Login to GitHub Container Registry
+      - name: Login to Atslega Private Container Registry
         uses: docker/login-action@v1
         with:
           registry: pcr.atslega.network
@@ -46,6 +46,9 @@ jobs:
           export TAG=$([[ $CURRENT_BRANCH == "main" ]] && echo "latest" || echo $CURRENT_BRANCH)
           export GITHUB_REF_IMAGE=pcr.atslega.network/$GITHUB_REPOSITORY:$GITHUB_SHA
           export GITHUB_BRANCH_IMAGE=pcr.atslega.network/$GITHUB_REPOSITORY:$TAG
+          echo $GCR_IMAGE
+          echo $GITHUB_REF_IMAGE
+          echo $GITHUB_BRANCH_IMAGE
           docker build -t $GCR_IMAGE -t $GITHUB_REF_IMAGE -t $GITHUB_BRANCH_IMAGE .
           echo "Pushing Image to GitHub Container Registry"
           docker push $GITHUB_REF_IMAGE
