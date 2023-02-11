@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: MaxAtslega/felix-fechenbach
   branch: main
 media_folder: public/assents
 public_folder: assents
