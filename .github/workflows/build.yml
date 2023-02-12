@@ -37,7 +37,6 @@ jobs:
     name: E2E on Chrome
     steps:
       - uses: actions/checkout@v3
-
       - uses: bahmutov/npm-install@v1.8.29 # save time on dependencies
         with: { useRollingCache: true }
 
