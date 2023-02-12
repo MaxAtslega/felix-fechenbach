@@ -3,82 +3,49 @@ name: Build
 on: [pull_request]
 
 jobs:
-  setup:
+  install-dependencies:
     runs-on: ubuntu-latest
-    name: Build
+    name: Install Dependencies
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install Dependencies
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn install
-
-  codeStyle:
-    needs: setup
+          cache: 'yarn'
+      - uses: bahmutov/npm-install@v1.8.29
+        with: { useRollingCache: true } # recommended for large projects
+        env:
+          CYPRESS_INSTALL_BINARY: 0
+  lint:
+    needs: [install-dependencies]
+    name: Run Lint
     runs-on: ubuntu-latest
-    name: CodeStyle
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install Dependencies
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn install
-      - name: Linting
-        run: yarn run lint
+      - uses: bahmutov/npm-install@v1.8.29
+        with: { useRollingCache: true }
+        env:
+          CYPRESS_INSTALL_BINARY: 0
+      - name: lint
+        run: yarn lint
 
   e2e:
-    needs: setup
+    needs: [install-dependencies]
     runs-on: ubuntu-latest
+    container: cypress/included:12.5.1
     # let's make sure our tests pass on Chrome browser
     name: E2E on Chrome
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install Dependencies
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn install
+      - uses: actions/checkout@v3
 
-      - name: e2e
-        uses: cypress-io/github-action@v5
+      - uses: bahmutov/npm-install@v1.8.29 # save time on dependencies
+        with: { useRollingCache: true }
+
+      - name: Cypress e2e tests
+        uses: cypress-io/github-action@v5.0.8
         with:
           browser: chrome
-          build: yarn build
+          install: false
           start: yarn start
           wait-on: 'http://localhost:3000'
       - name: Upload Artifact
