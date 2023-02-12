@@ -1,7 +1,21 @@
 {
-  "extends": [ "next/core-web-vitals", "airbnb", "plugin:prettier/recommended" ],
+  "extends": ["next/core-web-vitals", "airbnb", "plugin:prettier/recommended", "plugin:cypress/recommended"],
+  "ignorePatterns": [
+    "node_modules/*",
+    "dist/*",
+    ".nuxt/*",
+    ".idea/*",
+    "**/*.config.js",
+    "spec/**",
+    "**/*.scss",
+    "**/*.json"
+  ],
+  "env": {
+    "cypress/globals": true
+  },
   "rules": {
     "prettier/prettier": "error",
+    "camelcase": ["error", { "allow": ["de_DE", "en_US"], "ignoreImports": true }],
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/forbid-prop-types": "off",
