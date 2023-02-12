@@ -1,0 +1,56 @@
+name: Build
+
+on: [pull_request]
+
+jobs:
+  install-dependencies:
+    runs-on: ubuntu-latest
+    name: Install Dependencies
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'yarn'
+      - uses: bahmutov/npm-install@v1.8.29
+        with: { useRollingCache: true } # recommended for large projects
+        env:
+          CYPRESS_INSTALL_BINARY: 0
+  lint:
+    needs: [install-dependencies]
+    name: Run Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: bahmutov/npm-install@v1.8.29
+        with: { useRollingCache: true }
+        env:
+          CYPRESS_INSTALL_BINARY: 0
+      - name: lint
+        run: yarn lint
+
+  e2e:
+    needs: [install-dependencies]
+    runs-on: ubuntu-latest
+    container: cypress/included:12.5.1
+    # let's make sure our tests pass on Chrome browser
+    name: E2E on Chrome
+    steps:
+      - uses: actions/checkout@v3
+      - uses: bahmutov/npm-install@v1.8.29 # save time on dependencies
+        with: { useRollingCache: true }
+
+      - name: Cypress e2e tests
+        uses: cypress-io/github-action@v5.0.8
+        with:
+          browser: chrome
+          install: false
+          build: yarn build
+          start: yarn start
+          wait-on: 'http://localhost:3000'
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
