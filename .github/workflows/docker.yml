@@ -12,12 +12,12 @@ jobs:
     container: node:lts          # Use node LTS container version, same as Dockerfile base image
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - run: yarn install --frozen-lockfile
       - run: yarn run build
 
       - name: Upload Next build          # Upload the artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: build
           path: |
@@ -29,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Download next build       # Download the above uploaded artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
       - name: Login to Atslega Private Container Registry
