@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Main, Sidebar, SidebarTitle } from '@/components/Layout/Layout.styles'
+import { Container, Main } from '@/components/Layout/Layout.styles'
+import Sidebar from '@/components/Sidebar'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -7,9 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Container>
         <Main>{children}</Main>
       </Container>
-      <Sidebar>
-        <SidebarTitle>Felix Fechenbach</SidebarTitle>
-      </Sidebar>
+      <Sidebar />
     </>
   )
 }

@@ -10,6 +10,7 @@
     "cypress": "cypress open"
   },
   "dependencies": {
+    "@icons-pack/react-simple-icons": "^6.2.0",
     "@next/font": "^13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.28",
@@ -25,17 +26,17 @@
     "typescript": "^4.9.5"
   },
   "devDependencies": {
-    "eslint": "^8.34.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-next": "13.1.6",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "cypress": "^12.5.1",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-plugin-cypress": "^2.12.1"
+    "eslint-config-next": "13.1.6",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-prettier": "^4.2.1"
   },
   "resolutions": {
     "styled-components": "^5"
