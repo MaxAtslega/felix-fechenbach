@@ -37,6 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
           --font-base: ${OldStandardTT.style.fontFamily};
         }
       `}</style>
+
       <IntlProvider locale={locale || 'de'} messages={locale === 'de' ? de : en}>
         <SEO title="Start" />
         <Layout>

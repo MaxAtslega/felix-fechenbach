@@ -7,9 +7,7 @@ const nextConfig = {
     defaultLocale: 'de'
   },
   compiler: {
-    styledComponents: {
-      displayName: false
-    }
+    styledComponents: { ssr: true, displayName: false }
   }
 }
 

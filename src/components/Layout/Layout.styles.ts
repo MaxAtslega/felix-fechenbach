@@ -5,9 +5,8 @@ export const Container = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  right: 80px;
+  right: 70px;
   min-height: 100vh;
-  border-right: 5px solid #000000;
 `
 
 export const Main = styled.div`
