@@ -7,7 +7,6 @@ on:
       - "!dependabot/**"      # exclude dependbot branches
 jobs:
   docker-push:
-    needs: next-build        # Job depends on next-build(above) job
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
