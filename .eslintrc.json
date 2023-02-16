@@ -1,13 +1,28 @@
 {
-  "extends": [ "next/core-web-vitals", "airbnb", "plugin:prettier/recommended" ],
+  "extends": ["next/core-web-vitals", "airbnb-typescript", "plugin:prettier/recommended", "plugin:cypress/recommended"],
+  "ignorePatterns": [
+    "node_modules/*",
+    "dist/*",
+    ".nuxt/*",
+    ".idea/*",
+    "**/*.config.js",
+    "spec/**",
+    "**/*.scss",
+    "**/*.json"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
     "prettier/prettier": "error",
+    "camelcase": ["error", { "ignoreImports": true }],
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/forbid-prop-types": "off",
     "react/function-component-definition": "off",
     "import/no-extraneous-dependencies": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+    "react/no-unknown-property": ["error", { "ignore": ["jsx", "global"] }],
     "semi": ["error", "never"],
     "no-var": "error",
     "no-multiple-empty-lines": "error",
