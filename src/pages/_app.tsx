@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 import SEO from '@/components/SEO'
 import localFont from '@next/font/local'
 import Layout from '@/components/Layout'
+import GlobalStyle from '@/styles/globalStyles'
 
 const OldStandardTT = localFont({
   src: [
@@ -32,6 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <GlobalStyle />
       <style jsx global>{`
         :root {
           --font-base: ${OldStandardTT.style.fontFamily};
