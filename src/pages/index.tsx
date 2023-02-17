@@ -1,7 +1,6 @@
 import React from 'react'
 import Hero from '@/components/Start/Hero'
 import SEO from '@/components/SEO'
-import Container from '@/components/Container'
 import Exhibition from '@/components/Start/Exhibition'
 
 export default function Home() {
