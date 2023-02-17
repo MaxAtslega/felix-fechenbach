@@ -28,7 +28,7 @@ export const Sidebar = styled.div`
   }
 `
 
-export const Container = styled.div`
+export const Container = styled.section`
   position: relative;
   height: 80vh;
   width: 100%;

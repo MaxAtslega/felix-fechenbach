@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <Container>
+    <Container id={'hero'}>
       <Sidebar>
         <span>Felix Fechenbach Berufskolleg</span>
       </Sidebar>
