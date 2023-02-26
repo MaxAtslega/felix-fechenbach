@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '@/components/Container'
+import Cards from '@/components/Cards/Cards'
 
 const Exhibition = () => {
   return (
@@ -13,6 +14,7 @@ const Exhibition = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum.
         </p>
+        <Cards />
       </Container>
     </section>
   )
