@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Title = styled.h1`
   margin: 0;
   font-size: 4.5rem;
+
+  @media (max-width: 1120px) {
+    font-size: 2rem;
+  }
 `
 
 export const SubTitle = styled.p`
@@ -26,6 +30,10 @@ export const Sidebar = styled.div`
     font-weight: bold;
     font-size: 1.8rem;
   }
+
+  @media (max-width: 56rem) {
+    display: none;
+  }
 `
 
 export const Container = styled.section`
@@ -34,13 +42,8 @@ export const Container = styled.section`
   width: 100%;
   border-bottom: 3px solid #000000;
 
-  &:before {
-    position: absolute;
-    font-size: 18rem;
-    opacity: 0.012;
-    z-index: -1;
-    font-weight: 600;
-    content: 'Felix Fechenbach';
+  @media (max-width: 80rem) {
+    height: auto;
   }
 `
 
@@ -56,13 +59,39 @@ export const Content = styled.div`
     height: 100%;
     width: auto;
     border-left: 3px solid #000000;
+
+    @media (max-width: 56rem) {
+      display: none;
+    }
   }
 `
 
 export const ContentDiv = styled.div`
+  display: flex;
+  width: 100%;
   padding-top: 8%;
   padding-right: 20px;
   padding-left: 105px;
+
+  img {
+    display: none;
+    border: none;
+    width: 40%;
+    height: auto;
+    float: right;
+
+    @media (max-width: 56rem) {
+      display: inline-block;
+    }
+  }
+
+  @media (max-width: 80rem) {
+    padding: 20px 20px 20px 105px;
+  }
+
+  @media (max-width: 56rem) {
+    padding: 20px;
+  }
 `
 
 export const FButton = styled.button`

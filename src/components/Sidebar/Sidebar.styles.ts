@@ -8,6 +8,12 @@ export const Container = styled.aside`
   width: 70px;
   height: 100vh;
   border-left: 3px solid #000000;
+  background: #ffffff;
+
+  @media (max-width: 56rem) {
+    left: calc(100% - 50px);
+    width: 50px;
+  }
 `
 export const Content = styled.div`
   padding-top: 20px;

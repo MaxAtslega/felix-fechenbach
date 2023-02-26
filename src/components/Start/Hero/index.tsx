@@ -16,6 +16,7 @@ const Hero = () => {
             <Title>
               <FormattedMessage id="index.hero.title" />
             </Title>
+            <Image src={FechenbachImage} alt="Felix Fechenbach" />
             <SubTitle>
               <FormattedMessage id="index.hero.description" />
             </SubTitle>
