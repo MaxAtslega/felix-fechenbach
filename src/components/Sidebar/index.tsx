@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Footer, Title, Container, Content, LanguageSelector } from './Sidebar.styles'
 import { useIntl } from 'react-intl'
 import { useRouter } from 'next/router'
+import { setCookie } from 'cookies-next'
 
 const Sidebar = () => {
   const intl = useIntl()
@@ -12,6 +13,7 @@ const Sidebar = () => {
   const switchToLocale = useCallback(
     (locale: string) => {
       const path = router.asPath
+      setCookie('NEXT_LOCALE', locale)
 
       return router.push(path, path, { locale })
     },
