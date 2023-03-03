@@ -4,7 +4,7 @@ export const Title = styled.h1`
   margin: 0;
   font-size: 4.5rem;
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1100px) {
     font-size: 2rem;
   }
 `
@@ -31,7 +31,7 @@ export const Sidebar = styled.div`
     font-size: 1.8rem;
   }
 
-  @media (max-width: 56rem) {
+  @media (max-width: 1100px) {
     display: none;
   }
 `
@@ -42,7 +42,7 @@ export const Container = styled.section`
   width: 100%;
   border-bottom: 3px solid #000000;
 
-  @media (max-width: 80rem) {
+  @media (max-width: 980px) {
     height: auto;
   }
 `
@@ -60,7 +60,7 @@ export const Content = styled.div`
     width: auto;
     border-left: 3px solid #000000;
 
-    @media (max-width: 56rem) {
+    @media (max-width: 980px) {
       display: none;
     }
   }
@@ -77,19 +77,21 @@ export const ContentDiv = styled.div`
     display: none;
     border: none;
     width: 40%;
+    padding-left: 20px;
+    padding-bottom: 20px;
     height: auto;
     float: right;
 
-    @media (max-width: 56rem) {
+    @media (max-width: 980px) {
       display: inline-block;
     }
   }
 
-  @media (max-width: 80rem) {
+  @media (max-width: 1260px) {
     padding: 20px 20px 20px 105px;
   }
 
-  @media (max-width: 56rem) {
+  @media (max-width: 1100px) {
     padding: 20px;
   }
 `

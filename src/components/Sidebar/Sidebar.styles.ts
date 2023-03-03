@@ -52,6 +52,7 @@ export const LanguageSelector = styled.button`
   padding: 0;
   margin: 0;
   background-color: transparent;
+  color: #000000;
   outline: none;
   cursor: pointer;
 
