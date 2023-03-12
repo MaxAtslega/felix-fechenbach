@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
-const DOMAIN = 'https://fechenbach.atslega.de'
+const DOMAIN = 'https://fechenbach.atslega.dev'
 const siteName = 'Felix Fechenbach'
 const ogType = 'website'
 

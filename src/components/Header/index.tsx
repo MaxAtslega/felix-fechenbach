@@ -1,14 +1,21 @@
-import React from 'react'
-import { Container, Content, Nav, StyledIcon, StyledLink } from '@/components/Header/Header.styles'
+import React, { useState } from 'react'
+import { Container, Content, MenuButton, MobileMenuContainer, Nav, StyledLink } from '@/components/Header/Header.styles'
 import Link from 'next/link'
-import { FaRegBookmark } from 'react-icons/fa'
 import { FormattedMessage } from 'react-intl'
+import { HiMenu } from 'react-icons/hi'
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <Container>
       <Content>
-        <Nav>
+        <MobileMenuContainer>
+          <MenuButton style={menuOpen ? { opacity: '.6' } : {}} onClick={() => setMenuOpen(!menuOpen)}>
+            <HiMenu />
+          </MenuButton>
+        </MobileMenuContainer>
+        <Nav style={menuOpen ? { display: 'block' } : { display: 'none' }}>
           <ul>
             <li>
               <Link passHref href={'#'} legacyBehavior>
@@ -33,9 +40,6 @@ const Header = () => {
             </li>
           </ul>
         </Nav>
-        <StyledIcon>
-          <FaRegBookmark />
-        </StyledIcon>
       </Content>
     </Container>
   )

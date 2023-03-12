@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Item, CardContainer, Header, Body, StyledLink } from '@/components/Cards/Cards.styles'
-import { BsBookmark } from 'react-icons/bs'
 import MassendemonstrationImage from '@/assents/images/massendemonstration.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -18,7 +17,6 @@ const Card = ({ index, title, description }: Props) => {
           <span>
             {index} - {title}
           </span>
-          <BsBookmark />
         </Header>
         <Image src={MassendemonstrationImage} alt={'Massendemonstration'} />
         <Body>

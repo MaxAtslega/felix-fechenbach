@@ -50,6 +50,8 @@ export const Header = styled.div`
 export const StyledLink = styled.a`
   color: #000000;
   text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
   poi &:hover {
     opacity: 0.8;
   }

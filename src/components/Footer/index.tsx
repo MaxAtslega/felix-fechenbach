@@ -9,8 +9,8 @@ const Footer = () => {
         <Content>
           <Nav>
             <ul>
-              <li>Datenschutzerklärung</li>
               <li>Impressum</li>
+              <li>Datenschutzerklärung</li>
             </ul>
           </Nav>
           <span>Copyright © 2023 AtslegaMedia</span>

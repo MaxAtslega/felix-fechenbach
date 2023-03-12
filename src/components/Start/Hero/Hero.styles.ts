@@ -53,6 +53,7 @@ export const Content = styled.div`
   justify-content: space-between;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 
   img {
     position: relative;
@@ -75,10 +76,10 @@ export const ContentDiv = styled.div`
 
   img {
     display: none;
-    border: none;
+    border: 3px solid #000000;
     width: 40%;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     height: auto;
     float: right;
 
