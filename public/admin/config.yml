@@ -1,23 +1,43 @@
 backend:
   name: github
   repo: MaxAtslega/felix-fechenbach
-  branch: main
+  branch: develop
 media_folder: public/assents
 public_folder: assents
+i18n: { structure: multiple_folders, locales: ['en', 'de'] }
 collections:
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Home"
-        name: "home"
-        file: "content/home.md"
+  - name: "exhibition" # Used in routes, e.g., /admin/collections/blog
+    label: "Exhibition" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    i18n: true
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "Featured Image", name: "previewimage", widget: "image", required: true }
+      - { label: "Image description", name: "image_description", widget: "string", required: true, i18n: true }
+      - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - label: 'Timeline'
+        name: 'timeline'
+        widget: list
+        required: false
+        i18n: true
         fields:
-          - { label: "Title", name: "title", widget: "string"}
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-          - label: 'Cats'
-            name: "cats"
-            widget: list
-            fields:
-              - { label: "Name", name: "name", widget: "string"}
-              - { label: "Description", name: "description", widget: "text"}
+          - { label: Time, name: time, widget: string }
+          - { label: Body, name: body, widget: string }
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: list
+        i18n: true
+        required: false
+        fields:
+          - { label: "Image", name: "image", widget: "image", required: true }
+          - { label: "Image description", name: "image_description", widget: "string", required: true, i18n: true }
+      - label: 'Quotations'
+        name: 'quotations'
+        widget: list
+        i18n: true
+        required: false
+        fields:
+          - { label: Quotation, name: quotation, widget: body }
+          - { label: Author, name: author, widget: string }
