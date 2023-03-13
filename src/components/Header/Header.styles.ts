@@ -66,21 +66,6 @@ export const Nav = styled.nav`
   }
 `
 
-export const StyledLink = styled.a`
-  font-size: 1.1rem;
-  color: #000000;
-  text-decoration: none;
-
-  svg {
-    height: 1.4rem;
-    width: 1.4rem;
-  }
-
-  &:hover {
-    opacity: 0.7;
-  }
-`
-
 export const MenuButton = styled.button`
   padding: 0;
   margin: 0;

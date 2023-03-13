@@ -17,6 +17,22 @@ const GlobalStyle = createGlobalStyle`
     font-size: 2em;
     margin: 0.67em 0;
   }
+  
+  a {
+    font-size: 1.1rem;
+    color: #000000;
+    text-decoration: none;
+
+    svg {
+      height: 1.4rem;
+      width: 1.4rem;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  
   hr {
     box-sizing: content-box;
     height: 0;
