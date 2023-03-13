@@ -2,6 +2,7 @@ import React from 'react'
 import { FooterContainer, Content, Nav } from '@/components/Footer/Footer.styles'
 import Container from '@/components/Container'
 import Link from 'next/link'
+import { FormattedMessage } from 'react-intl'
 
 const Footer = () => {
   return (
@@ -11,10 +12,14 @@ const Footer = () => {
           <Nav>
             <ul>
               <li>
-                <Link href={'/site_notice'}>Impressum</Link>
+                <Link href={'/site_notice'}>
+                  <FormattedMessage id="footer.siteNotice" />
+                </Link>
               </li>
               <li>
-                <Link href={'/privacy_policy'}>Datenschutzerklärung</Link>
+                <Link href={'/privacy_policy'}>
+                  <FormattedMessage id="footer.privacyPolicy" />
+                </Link>
               </li>
             </ul>
           </Nav>

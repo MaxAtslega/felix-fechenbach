@@ -23,6 +23,7 @@ export const Sidebar = styled.div`
   text-align: center;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 
   span {
     writing-mode: vertical-rl;

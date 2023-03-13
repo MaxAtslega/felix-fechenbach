@@ -33,7 +33,7 @@ const Card = ({ index, title, description }: Props) => {
 const Cards = () => {
   return (
     <Container>
-      {[...Array(15)].map((x, i) => (
+      {[...Array(13)].map((x, i) => (
         <Card
           key={i}
           title={'Mergentheim: Kindheit & Jugend'}

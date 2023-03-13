@@ -20,5 +20,6 @@ export const Nav = styled.nav`
     list-style: none;
     float: left;
     padding-right: 10px;
+    font-size: 1.1rem;
   }
 `

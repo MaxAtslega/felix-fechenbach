@@ -3,12 +3,18 @@ import { FormattedMessage } from 'react-intl'
 import { Container, Content, ContentDiv, FButton, Sidebar, SubTitle, Title } from './Hero.styles'
 import FechenbachImage from '@/assents/images/fechenbach.jpg'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const Hero = () => {
+  const router = useRouter()
+
   return (
     <Container id={'hero'}>
       <Sidebar>
-        <span>Felix Fechenbach Berufskolleg</span>
+        <span>
+          <Link href={'https://ffb-lippe.de'}>Felix Fechenbach Berufskolleg</Link>
+        </span>
       </Sidebar>
       <Content>
         <ContentDiv>
@@ -21,10 +27,12 @@ const Hero = () => {
               <FormattedMessage id="index.hero.description" />
             </SubTitle>
             <span>
-              <FormattedMessage id="index.hero.intro" />
+              <FormattedMessage id="index.hero.introduction" />
             </span>
 
-            <FButton>Erkunde</FButton>
+            <FButton onClick={() => router.push('#exhibition')}>
+              <FormattedMessage id="index.hero.jump" />
+            </FButton>
           </div>
         </ContentDiv>
         <Image src={FechenbachImage} alt="Felix Fechenbach" />

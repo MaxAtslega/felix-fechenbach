@@ -23,7 +23,9 @@ const Sidebar = () => {
   return (
     <Container>
       <Content>
-        <Title>Felix Fechenbach</Title>
+        <Title>
+          <Link href={'/'}>Felix Fechenbach</Link>
+        </Title>
         <Footer>
           <ul>
             <li>

@@ -19,7 +19,6 @@ const GlobalStyle = createGlobalStyle`
   }
   
   a {
-    font-size: 1.1rem;
     color: #000000;
     text-decoration: none;
 
