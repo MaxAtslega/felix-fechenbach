@@ -1,15 +1,15 @@
 import React from 'react'
-import { Container, Item, CardContainer, Header, Body, StyledLink } from '@/components/Cards/Cards.styles'
-import MassendemonstrationImage from '@/assents/images/massendemonstration.jpg'
-import Image from 'next/image'
+import { Item, CardContainer, Header, Body, StyledLink } from '@/components/Cards/Cards.styles'
 import Link from 'next/link'
 interface Props {
   title: string
   description: string
   index: number
+  slug: string
+  image: string
 }
 
-const Card = ({ index, title, description }: Props) => {
+const Card = ({ index, title, description, slug, image }: Props) => {
   return (
     <Item>
       <CardContainer>
@@ -18,10 +18,11 @@ const Card = ({ index, title, description }: Props) => {
             {index} - {title}
           </span>
         </Header>
-        <Image src={MassendemonstrationImage} alt={'Massendemonstration'} />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={image} alt={'title'} />
         <Body>
           <p>{description}</p>
-          <Link legacyBehavior href={'/exhibition/test'}>
+          <Link legacyBehavior href={'/ausstellung/' + slug}>
             <StyledLink>Weiter lesen</StyledLink>
           </Link>
         </Body>
@@ -30,21 +31,4 @@ const Card = ({ index, title, description }: Props) => {
   )
 }
 
-const Cards = () => {
-  return (
-    <Container>
-      {[...Array(13)].map((x, i) => (
-        <Card
-          key={i}
-          title={'Mergentheim: Kindheit & Jugend'}
-          description={
-            'Bereits im Alter von 18 Jahren engagierte sich Felix Fechenbach in der Gewerkschaft und für die Solzialdemokratische...'
-          }
-          index={i + 1}
-        />
-      ))}
-    </Container>
-  )
-}
-
-export default Cards
+export default Card

@@ -12,12 +12,12 @@ const Footer = () => {
           <Nav>
             <ul>
               <li>
-                <Link href={'/site_notice'}>
+                <Link href={'/impressum'}>
                   <FormattedMessage id="footer.siteNotice" />
                 </Link>
               </li>
               <li>
-                <Link href={'/privacy_policy'}>
+                <Link href={'/datenschutz'}>
                   <FormattedMessage id="footer.privacyPolicy" />
                 </Link>
               </li>

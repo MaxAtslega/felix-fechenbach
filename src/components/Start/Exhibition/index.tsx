@@ -1,11 +1,12 @@
 import React from 'react'
 import Container from '@/components/Container'
-import Cards from '@/components/Cards/Cards'
+import Card from '@/components/Cards/Cards'
 import { FormattedMessage } from 'react-intl'
+import { Container as CardContainer } from '@/components/Cards/Cards.styles'
 
-const Exhibition = () => {
+const Exhibition = ({ exhibition }: { exhibition: any }) => {
   return (
-    <section id={'exhibition'}>
+    <section id={'ausstellung'}>
       <Container>
         <h1>
           <FormattedMessage id="exhibition.title" />
@@ -13,7 +14,18 @@ const Exhibition = () => {
         <p>
           <FormattedMessage id="exhibition.introduction" />
         </p>
-        <Cards />
+        <CardContainer>
+          {exhibition.map((data: any) => (
+            <Card
+              image={data.previewimage}
+              title={data.title}
+              description={data.short}
+              index={1}
+              slug={data.slug}
+              key={data.slug}
+            />
+          ))}
+        </CardContainer>
       </Container>
     </section>
   )

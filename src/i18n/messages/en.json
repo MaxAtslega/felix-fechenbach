@@ -4,7 +4,7 @@
 
   "header.nav.exhibition": "Exhibition",
   "header.nav.explore": "Explore",
-  "header.nav.gallery": "Gallery",
+  "header.nav.movie": "Film",
 
   "index.hero.title": "Felix Fechenbach",
   "index.hero.jump": "To the exhibition",
@@ -13,6 +13,17 @@
 
   "exhibition.title": "Exhibition",
   "exhibition.introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+
+  "movie.title": "Felix Fechenbach Movie",
+  "movie.content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+  "movie.error": "Sorry, your browser doesn't support embedded videos.",
+
+  "explore.title": "Explore",
+  "explore.introduction": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+
+  "notfound.title": "Page not found",
+  "notfound.message": "Unfortunately, the page you are looking for does not exist. Or maybe there was a mistake in the link you clicked/entered?",
+  "notfound.button": "To the exhibition",
 
   "footer.siteNotice": "Site Notice",
   "footer.privacyPolicy": "Privacy Policy"

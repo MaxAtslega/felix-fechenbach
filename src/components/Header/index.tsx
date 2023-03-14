@@ -23,13 +23,13 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href={'#'}>
+              <Link href={'/erkunde'}>
                 <FormattedMessage id="header.nav.explore" />
               </Link>
             </li>
             <li>
-              <Link href={'#'}>
-                <FormattedMessage id="header.nav.gallery" />
+              <Link href={'/film'}>
+                <FormattedMessage id="header.nav.movie" />
               </Link>
             </li>
           </ul>

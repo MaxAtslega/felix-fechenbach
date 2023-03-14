@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
-import { Container, Content, ContentDiv, FButton, Sidebar, SubTitle, Title } from './Hero.styles'
-import FechenbachImage from '@/assents/images/fechenbach.jpg'
+import { Container, Content, Wrapper, FButton, Sidebar, SubTitle, Title } from './Hero.styles'
+import FechenbachImage from '@/assets/images/fechenbach.jpg'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
@@ -17,7 +17,7 @@ const Hero = () => {
         </span>
       </Sidebar>
       <Content>
-        <ContentDiv>
+        <Wrapper>
           <div>
             <Title>
               <FormattedMessage id="index.hero.title" />
@@ -30,11 +30,11 @@ const Hero = () => {
               <FormattedMessage id="index.hero.introduction" />
             </span>
 
-            <FButton onClick={() => router.push('#exhibition')}>
+            <FButton onClick={() => router.push('#ausstellung')}>
               <FormattedMessage id="index.hero.jump" />
             </FButton>
           </div>
-        </ContentDiv>
+        </Wrapper>
         <Image src={FechenbachImage} alt="Felix Fechenbach" />
       </Content>
     </Container>

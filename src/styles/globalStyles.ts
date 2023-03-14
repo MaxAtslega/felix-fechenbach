@@ -15,12 +15,14 @@ const GlobalStyle = createGlobalStyle`
   }
   h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0  0 0.67em 0;
   }
   
   a {
     color: #000000;
     text-decoration: none;
+    overflow-wrap: break-word;
+    word-break: break-word;
 
     svg {
       height: 1.4rem;

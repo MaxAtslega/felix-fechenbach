@@ -68,7 +68,7 @@ export const Content = styled.div`
   }
 `
 
-export const ContentDiv = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   width: 100%;
   padding-top: 8%;
@@ -102,7 +102,7 @@ export const FButton = styled.button`
   display: block;
   border: 3px solid #000000;
 
-  margin: 20px 0 0 0;
+  margin: 20px 0 20px 0;
   padding: 10px 30px;
   width: auto;
 

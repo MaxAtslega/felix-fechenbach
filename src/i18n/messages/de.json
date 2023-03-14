@@ -4,7 +4,7 @@
 
   "header.nav.exhibition": "Ausstellung",
   "header.nav.explore": "Erkunde",
-  "header.nav.gallery": "Galerie",
+  "header.nav.movie": "Film",
 
   "index.hero.title": "Felix Fechenbach",
   "index.hero.jump": "Zur Ausstellung",
@@ -13,6 +13,17 @@
 
   "exhibition.title": "Ausstellung",
   "exhibition.introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+
+  "movie.title": "Felix Fechenbach Film",
+  "movie.content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+  "movie.error": "Entschuldigung, ihr Browser unterstützt keine Videos auf dieser Webseite.",
+
+  "explore.title": "Erkunde",
+  "explore.introduction": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+
+  "notfound.title": "Seite nicht gefunden",
+  "notfound.message": "Die Seite, die du suchst, gibt es leider nicht (mehr). Oder war vielleicht ein Fehler in dem Link, den du geklickt/eingegeben hast?",
+  "notfound.button": "Zur Ausstellung",
 
   "footer.siteNotice": "Impressum",
   "footer.privacyPolicy": "Datenschutzerklärung"
