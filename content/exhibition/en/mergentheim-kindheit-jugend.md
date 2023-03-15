@@ -25,4 +25,4 @@ Als Schriftsteller und Journalist betätigte er sich ein Jahr später. Sein erst
 Die SPD (Sozialdemokratische Partei Deutschlands) ist im Oktober 1890 aus der SAP (Soziallistische Arbeiterpartei Deutschlands hervorgegangen, die sich im Mai 1875 in Gotha gegründet hatte.
 </InformationBox>
 
-<Image src="/assets/screenshot-2023-03-13-170336.png" alt="Stadtansicht München, um 1910 | Reproduktion | Stadtarchive München" width="699" height="434" />
+<Image src="/assets/mergentheim.png" alt="Stadtansicht München, um 1910 | Reproduktion | Stadtarchive München" width="699" height="434" />
