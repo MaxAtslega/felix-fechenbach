@@ -16,6 +16,7 @@ export const Content = styled.div`
   @media (max-width: 780px) {
     align-items: center;
     flex-direction: column;
+    text-align: center;
   }
 `
 
@@ -32,5 +33,11 @@ export const Nav = styled.nav`
 
   @media (max-width: 780px) {
     padding-bottom: 1rem;
+  }
+
+  @media (max-width: 316px) {
+    li {
+      width: 100%;
+    }
   }
 `

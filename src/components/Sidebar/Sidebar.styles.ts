@@ -45,6 +45,10 @@ export const Title = styled.span`
   writing-mode: vertical-lr;
   font-size: 2.1rem;
   font-weight: 600;
+
+  @media (max-width: 56rem) {
+    font-size: 1.6rem;
+  }
 `
 
 export const LanguageSelector = styled.button`

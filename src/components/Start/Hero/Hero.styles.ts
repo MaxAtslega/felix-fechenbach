@@ -12,6 +12,10 @@ export const Title = styled.h1`
 export const SubTitle = styled.p`
   font-size: 1.5rem;
   margin: 0 0 20px 0;
+
+  @media (max-width: 1100px) {
+    font-size: 1.2rem;
+  }
 `
 
 export const Sidebar = styled.div`
