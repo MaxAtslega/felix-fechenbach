@@ -1,28 +1,27 @@
 ---
-title: "[EN] Mergentheim: Kindheit & Jugend"
+title: "Mergentheim: Childhood & Youth"
 previewimage: /assets/mergentheim.png
-image_alt: Stadtansicht München, um 1910 | Reproduktion | Stadtarchive München
-short: Bereits im Alter von 18 Jahren engagierte sich Felix Fechenbach in der Gewerkschaft und für die Sozialdemokratische Partei Deutschlands...
+image_alt: City view of Munich, around 1910 | reproduction | Munich City Archives
+short: At the age of 18, Felix Fechenbach was already involved in the trade
+  union and for the Social Democratic Party of Germany (SPD). He was actively
+  involved in...
 timeline:
-  - time: 28. Januar 1894
-    body: Geburt in Mergentheim als Sohn eines jüdischen Backers
+  - time: January 28, 1894
+    body: Born in Mergentheim as the son of a Jewish baker
   - time: 1907 - 1911
-    body: Lehre in einer Würzburger Schuhwareneroßhandlung
-  - body: Anstellung in Frankfurt als Handlungsgehilfe
+    body: Apprenticeship in a shoe wholesaler in Würzburg
+  - body: Employment in Frankfurt as clerk
     time: "1911"
-  - body: Tätigkeit im Arbeitersekretariat der Gewerkschaft (Zentralverband der
-      Handlungsgehilfen in Deutschland) in München
+  - body: Worked in the workers' secretariat of the trade union (central association
+      of clerks in Germany) in Munich
     time: 1912 - 1914
 ---
-[EN] Bereits im Alter von 18 Jahren engagierte sich Felix Fechenbach in der Gewerkschaft und für die Sozialdemokratische Partei Deutschlands
-(SPD). Er war aktiv an der Vorbereitung des Wahlkampfs zur letzten Reichstagswahl vor dem Ersten Weltkrieg für die SPD im Jahr 1912 beteiligt und organisierte die Arbeiterjugend.
-Als Schriftsteller und Journalist betätigte er sich ein Jahr später. Sein erster Artikel erschien in der „Münchner Post" unter der Überschrift „Ein Wort an die Eltern der kaufmännischen Jugend“. 
+At the age of 18, Felix Fechenbach was already involved in the trade union and for the Social Democratic Party of Germany (SPD). He was actively involved in preparing the election campaign for the last Reichstag election before the First World War for the SPD in 1912 and organized the workers' youth.
+A year later he worked as a writer and journalist. His first article appeared in the "Münchner Post" under the heading "A Word to the Parents of the Commercial Youth".
 
 
 <InformationBox>
 <strong>SPD</strong>
 <br/>
-Die SPD (Sozialdemokratische Partei Deutschlands) ist im Oktober 1890 aus der SAP (Soziallistische Arbeiterpartei Deutschlands hervorgegangen, die sich im Mai 1875 in Gotha gegründet hatte.
+The SPD (Social Democratic Party of Germany) emerged in October 1890 from the SAP (Socialist Workers' Party of Germany, which was founded in Gotha in May 1875.
 </InformationBox>
-
-<Image src="/assets/mergentheim.png" alt="Stadtansicht München, um 1910 | Reproduktion | Stadtarchive München" width="699" height="434" />
