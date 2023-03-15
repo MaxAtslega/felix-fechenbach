@@ -14,6 +14,7 @@ collections:
     i18n: true
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "ID", name: "id", widget: "number", i18n: true }
       - { label: "Featured Image", name: "previewimage", widget: "image", required: true, i18n: true }
       - { label: "Image description", name: "image_alt", widget: "string", required: true, i18n: true }
       - { label: "Short Text", name: "short", widget: "markdown", i18n: true }

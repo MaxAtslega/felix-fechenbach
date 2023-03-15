@@ -1,5 +1,6 @@
 ---
 title: "München: Politische Arbeit"
+id: 4
 previewimage: /assets/massendemonstration.png
 image_alt: Kurt Eisner, seine Ehefrau und Felix Fechenbach als Teilnehmer der
   Massendemonstration für das Rätesystem in München, 16. Februar 1919 |

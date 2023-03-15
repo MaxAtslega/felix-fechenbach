@@ -20,7 +20,7 @@ const Exhibition = ({ exhibition }: { exhibition: any }) => {
               image={data.previewimage}
               title={data.title}
               description={data.short}
-              index={1}
+              index={data.id}
               slug={data.slug}
               key={data.slug}
             />

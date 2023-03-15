@@ -1,5 +1,6 @@
 ---
 title: "Munich: Politics & Journalism"
+id: 6
 previewimage: /assets/lvz-1920-sw.jpg
 image_alt: "Front page of the Leipziger Volkszeitung, 2 January 1920 |
   Reproduction | Stadtarchiv Leipzig "

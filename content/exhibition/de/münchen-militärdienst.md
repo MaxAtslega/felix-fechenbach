@@ -1,5 +1,6 @@
 ---
 title: "München: Militärdienst"
+id: 2
 previewimage: /assets/fechenbach-als-soldat.png
 image_alt: Felix Fechenbach als Soldat im 1. Weltkrieg | Reproduktion |
   Landesarchiv NRW, Abteilung Ostwestfalen-Lippe

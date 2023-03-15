@@ -1,5 +1,6 @@
 ---
 title: "Mergentheim: Kindheit & Jugend"
+id: 1
 previewimage: /assets/mergentheim.png
 image_alt: Stadtansicht München, um 1910 | Reproduktion | Stadtarchive München
 short: Bereits im Alter von 18 Jahren engagierte sich Felix Fechenbach in der

@@ -1,5 +1,6 @@
 ---
 title: "München: Januar-Streik"
+id: 3
 previewimage: /assets/kurt-eisner.png
 image_alt: Kurt Eisner, 1918 reproduction Munich City Archives
 short: Fechenbach und Eisner lernten sich 1916 kennen. Der erfahrene Sozialist

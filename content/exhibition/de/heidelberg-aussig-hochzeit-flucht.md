@@ -1,5 +1,6 @@
 ---
 title: "Heidelberg - Aussig: Hochzeit & Flucht"
+id: 5
 previewimage: /assets/aussig_um_1910.jpg
 image_alt: Aussig, um 1910 | Reproduktion | Privatbesitz
 short: Nach dem Zusammenbruch der Münchner Räterepublik verließ Fechenbach

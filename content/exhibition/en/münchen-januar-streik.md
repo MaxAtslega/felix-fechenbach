@@ -1,5 +1,6 @@
 ---
 title: "Munich: January strike"
+id: 3
 previewimage: /assets/kurt-eisner.png
 image_alt: Kurt Eisner, 1918 reproduction Munich City Archives
 short: Fechenbach and Eisner met in 1916. The experienced socialist spoke at...

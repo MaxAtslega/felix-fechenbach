@@ -1,5 +1,6 @@
 ---
 title: "Munich: Political work"
+id: 4
 previewimage: /assets/massendemonstration.png
 image_alt: Kurt Eisner, his wife and Felix Fechenbach as participants in the
   mass demonstration for the council system in Munich, 16 February 1919 |

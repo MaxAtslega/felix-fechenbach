@@ -1,5 +1,6 @@
 ---
 title: "Heidelberg - Aussig: Wedding & Flight"
+id: 5
 previewimage: /assets/aussig_um_1910.jpg
 image_alt: Aussig, around 1910 | Reproduction | Private property
 short: After the collapse of the Munich soviet republic, Fechenbach left Munich

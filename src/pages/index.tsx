@@ -18,16 +18,20 @@ export default function Home({ exhibition }: { exhibition: any }) {
 export async function getStaticProps({ locale }: { locale: string }) {
   const filesInBlogs = fs.readdirSync(`./content/exhibition/${locale}`)
 
-  const exhibition = filesInBlogs.map((filename) => {
-    const file = fs.readFileSync(`./content/exhibition/${locale}/${filename}`, 'utf8')
-    const matterData = matter(file)
+  const exhibition = filesInBlogs
+    .map((filename) => {
+      const file = fs.readFileSync(`./content/exhibition/${locale}/${filename}`, 'utf8')
+      const matterData = matter(file)
 
-    return {
-      ...matterData.data,
-      content: matterData.content.slice(0, 100),
-      slug: filename.slice(0, filename.indexOf('.')),
-    }
-  })
+      return {
+        ...matterData.data,
+        content: matterData.content.slice(0, 100),
+        slug: filename.slice(0, filename.indexOf('.')),
+      }
+    })
+    .sort((a: any, b: any) => {
+      return a.id - b.id
+    })
 
   return {
     props: {

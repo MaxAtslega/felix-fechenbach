@@ -1,5 +1,6 @@
 ---
 title: "Mergentheim: Childhood & Youth"
+id: 1
 previewimage: /assets/mergentheim.png
 image_alt: City view of Munich, around 1910 | reproduction | Munich City Archives
 short: At the age of 18, Felix Fechenbach was already involved in the trade

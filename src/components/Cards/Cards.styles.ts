@@ -18,7 +18,9 @@ export const CardContainer = styled.div`
 
   img {
     width: 100%;
-    height: auto;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
   }
 `
 

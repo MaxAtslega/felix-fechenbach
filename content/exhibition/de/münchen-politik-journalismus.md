@@ -1,5 +1,6 @@
 ---
 title: "München: Politik & Journalismus"
+id: 6
 previewimage: /assets/lvz-1920-sw.jpg
 image_alt: "Titelblatt der Leipziger Volkszeitung, 2. Januar 1920 | Reproduktion
   | Stadtarchiv Leipzig "
