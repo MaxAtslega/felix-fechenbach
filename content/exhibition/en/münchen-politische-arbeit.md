@@ -13,6 +13,9 @@ After his acquittal at the Munich court martial, Fechenbach had not returned to 
 
 <InformationBox>
 "For the first time in my life, my best strengths and abilities can be put to good use. I feel the deepest satisfaction in my activity. I am acting out of the purest idealism, deeply imbued with the necessity of this revolution."
-<br>
+<br/>
 <i>Felix Fechenbach to Martha Czernichowski about his work in Eisner's antechamber.</i>
 </InformationBox>
+
+
+<Image src="/assets/justizpalast.png" alt="Palace of Justice in Munich | reproduction | Munich City Archivesn" width="796" height="587" />

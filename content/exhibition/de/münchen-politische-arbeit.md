@@ -14,7 +14,9 @@ Nach seinem Freispruch vor dem Münchner Kriegsgericht war Fechenbach nicht mehr
 
 <InformationBox>
 „Zum ersten Mal in mei- nem Leben können sich meine besten Kräfte und Fähigkeiten nutzbringend auswirken. Ich empfinde tiefste Befriedigung über meine Tätigkeit. Ich hand- le aus reinstem Idealismus, bin tief durchdrungen von der Notwendigkeit dieser Revolution.“
-<br>
+<br/>
 <i>Felix Fechenbach an Martha Czernichowski über seine Arbeit in Eisners Vorzimmer</i>
 </InformationBox>
+
+<Image src="/assets/justizpalast.png" alt="Justizpalast in München | Reproduktion | Stadtarchive München" width="796" height="587" />
 
