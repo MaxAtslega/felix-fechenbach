@@ -1,5 +1,5 @@
 ---
-title: "München: military service"
+title: "Munich: military service"
 previewimage: /assets/fechenbach-als-soldat.png
 image_alt: Felix Fechenbach as a soldier in World War I | reproduction | State
   archive of North Rhine-Westphalia, East Westphalia-Lippe department
