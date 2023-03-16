@@ -16,7 +16,7 @@ timeline:
 Nach seiner Verhaftung wurde Fechenbach im Detmolder Gefängnis in Schutzhaft genommen. In den Monaten seiner Gefangenschaft schrieb er seiner Frau viele Briefe und verfasste den Roman „Der Puppenspieler“.
 
 <InformationBox>
-„Es ist mir lieb, daß Du Ver- ständnis dafür hast, daß ich seinerzeit im März nicht davongelaufen bin, wie so viele andere in Berlin und anderswo. Man mag das dumm nennen. Ich konn- te jedenfalls nicht anders handeln. Es wäre ein Treue- bruch gegen die lippischen Arbeiter gewesen. Ich will lieber die Schutzhaft er- tragen, als daß man mich feige und treulos nennen könnte.“
+„Es ist mir lieb, daß Du Verständnis dafür hast, daß ich seinerzeit im März nicht davongelaufen bin, wie so viele andere in Berlin und anderswo. Man mag das dumm nennen. Ich konnte jedenfalls nicht anders handeln. Es wäre ein Treuebruch gegen die lippischen Arbeiter gewesen. Ich will lieber die Schutzhaft ertragen, als daß man mich feige und treulos nennen könnte.“
 <br/>
 <i>Felix to Irma Fechenbach, Protective custody 1933</i>
 </InformationBox>
