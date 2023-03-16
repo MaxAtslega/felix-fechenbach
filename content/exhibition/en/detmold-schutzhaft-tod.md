@@ -29,10 +29,13 @@ On the same day, I learned in a roundabout way from the Warburg police station t
 <br/>
 <i>Max Fechenbach to the police chief of the city of Detmold, 1948.</i>
 </InformationBox>
-
+<br/>
+<br/>
 <InformationBox>
 "The body showed a number of injuries when I saw my brother's corpse in the morgue of the hospital at Scherfede: shear and graze wounds, bullet wounds in the head and arms, arm puncture, shot in the neck
 with a large hole in the neck and a hole in the arm. The face was disfigured almost beyond recognition by blows and powerful blows. The wristwatch, or rather the watchband of the murdered man was torn to shreds and the wallet torn, all evidence of a hand-to-hand struggle and abuse preceding the shooting, during which the murdered man had resisted."
 <br/>
 <i>Max Fechenbach to the Paderborn Public Prosecutor's Office, 1948</i>
 </InformationBox>
+<br/>
+<br/>

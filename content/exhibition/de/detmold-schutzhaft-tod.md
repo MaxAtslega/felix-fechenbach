@@ -29,11 +29,13 @@ Auf Umwegen erfuhr ich von der Polizeistation Warburg am selben Tag noch, dass m
 <br/>
 <i>Max Fechenbach an den Polizeipräsidenten der Stadt Detmold, 1948</i>
 </InformationBox>
-
+<br/>
+<br/>
 <InformationBox>
 „Der Körper zeigte eine Reihe von Verletzungen, als ich im Leichensaale des Hospitals von Scherfede die Leiche meines Bruders sah: Schuerf- und Streifschussverletzungen, Schusswunden am Kopf und Armen, Armdurchschuss, Genickschuss
 mit grossem Loch im Nacken und Ausschussöffnung am Aermel. Das Gesicht war durch Hiebe und kraeftige Schlaege fast zur Unkenntlichkeit entstellt. Die Armbanduhr, bzw. das Uhrarmband des Ermordeten war zerfetzt und die Brieftasche zerrissen, alles Beweise eines der Erschiessung vorangegangenen Nahkampfes und Misshandlung, bei der sich der Ermordete gewehrt hatte.“
-
 <br/>
 <i>Max Fechenbach an die Staatsanwaltschaft Paderborn, 1948</i>
 </InformationBox>
+<br/>
+<br/>
