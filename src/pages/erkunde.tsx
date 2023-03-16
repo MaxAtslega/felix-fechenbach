@@ -15,7 +15,7 @@ const Erkunde: NextPage = () => {
         <FormattedMessage id="explore.title" />
       </h1>
       <p>
-        <FormattedMessage id="explore.introduction" />.
+        <FormattedMessage id="explore.introduction" />
       </p>
       <OpenStreetMap />
     </Container>

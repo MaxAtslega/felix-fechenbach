@@ -15,7 +15,7 @@ const TextImageContainer = ({
   children: any
   src: string
   alt: string
-  timeline: { time: string; body: string }[]
+  timeline?: { time: string; body: string }[]
 }) => (
   <Container>
     <TextContainer>{children}</TextContainer>
@@ -24,7 +24,7 @@ const TextImageContainer = ({
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={src} alt={alt} />
       <p>{alt}</p>
-      <Timeline timeline={timeline} />
+      {timeline ? <Timeline timeline={timeline} /> : null}
     </ImageContainer>
   </Container>
 )

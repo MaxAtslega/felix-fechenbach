@@ -34,7 +34,7 @@ const Exhibition = ({ frontmatter, source }: { frontmatter: any; source: any }) 
     <>
       <Layout>
         <h1>{frontmatter.title}</h1>
-        <TextImageContainer timeline={frontmatter.timeline} src={frontmatter.previewimage} alt={frontmatter.image_alt}>
+        <TextImageContainer timeline={frontmatter?.timeline} src={frontmatter.previewimage} alt={frontmatter.image_alt}>
           <MDXRemote {...source} components={components} />
         </TextImageContainer>
       </Layout>
