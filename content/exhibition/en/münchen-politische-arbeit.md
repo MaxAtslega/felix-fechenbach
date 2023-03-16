@@ -13,7 +13,7 @@ timeline:
 After his acquittal at the Munich court martial, Fechenbach had not returned to his unit. He helped Eisner, who had become an important reference person for him, with his political plans. In November, King Ludwig III was deposed and Eisner proclaimed the Republic. The Kingdom of Bavaria became the Free State. In December 1918 Eisner founded the "Neue Zeitung", in which Fechenbach was active as a journalist. In January and February 1919, the situation in Munich changed - opponents of the revolution and the prime minister publicly agitated against him in almost all German newspapers. Shortly before Eisner was about to announce his resignation in the Landtag, he was shot.
 
 <InformationBox>
-"For the first time in my life, my best strengths and abilities can be put to good use. I feel the deepest satisfaction in my activity. I am acting out of the purest idealism, deeply imbued with the necessity of this revolution."
+[Translated] "For the first time in my life, my best strengths and abilities can be put to good use. I feel the deepest satisfaction in my activity. I am acting out of the purest idealism, deeply imbued with the necessity of this revolution."
 <br/>
 <i>Felix Fechenbach to Martha Czernichowski about his work in Eisner's antechamber.</i>
 </InformationBox>
