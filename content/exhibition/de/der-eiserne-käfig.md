@@ -14,6 +14,7 @@ Die erste Nacht im Zuchthaus Ebrach musste Fechenbach in einem eisernen Käfig v
 <br/>
 <i>Im Haus der Freudlosen, S.25-26.</i>
 </InformationBox>
-
+<br/>
+<br/>
 <h2>Eiserner Käfig</h2>
 Die Geschichte des eisernen Käfigs reicht zurück bis ins Mittelalter. In seiner Funktion als Folterinstrument hing der Käfig häufig an einem Ständer aus Holz. Der Gefangene wurde – meist nackt – in den Käfig eingesperrt. Er musste, je nach Strafmaß, einige Stunden oder sogar mehrere Tage und Nächte darin verbringen.

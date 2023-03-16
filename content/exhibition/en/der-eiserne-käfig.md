@@ -14,6 +14,7 @@ Fechenbach had to spend the first night in Ebrach penitentiary in an iron cage a
 <br/>
 <i>Im Haus der Freudlosen, Page 25-26.</i>
 </InformationBox>
-
+<br/>
+<br/>
 <h2>Iron cage</h2>
 The history of the iron cage goes back to the Middle Ages. In its function as an instrument of torture, the cage often hung on a stand made of wood. The prisoner was locked in the cage - usually naked. Depending on the punishment, he had to spend several hours or even several days and nights in it.
