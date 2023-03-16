@@ -16,7 +16,7 @@ timeline:
     time: "1994"
 ---
 <InformationBox>
-<h2>Remember - Commemorate - Engage<h2>
+<h2>Remember - Commemorate - Engage</h2>
 </InformationBox>
 
 Felix Fechenbach's life is exemplary for the rebellion of individuals against the dictatorial rule of the National Socialists. Through his actions, he also set an example for later generations. So we too are called upon to stand up for our fellow human beings and against any kind of violence, exclusion and injustice towards others. One of the most important principles in our coexistence is therefore: "Don't look away - look - show civil courage!" Felix Fechenbach was driven into a forest by four men so that no one could prevent the act. However, the injustice done to him has not been forgotten. The memorial stone, which was placed on the initiative of his friend August Berlin, commemorates Fechenbach. The vocational college bears the name of the Jewish journalist to honour him and to pass on his ideals as part of the school's educational mission. Everyone is encouraged to get involved according to their possibilities!
