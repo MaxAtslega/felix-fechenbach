@@ -9,10 +9,7 @@ const Film: NextPage = () => {
       <h1>
         <FormattedMessage id="movie.title" />
       </h1>
-      <p>
-        <FormattedMessage id="movie.content" />.
-      </p>
-      <video muted src={'/assets/felix-fechenbach.mp4'} controls width="100%">
+      <video muted src={'https://content.atslega-media.de/felix-fechenbach.mp4'} controls width="100%">
         <FormattedMessage id="movie.error" />
       </video>
     </Container>
