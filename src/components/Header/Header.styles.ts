@@ -73,6 +73,7 @@ export const MenuButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
+  color: #000000;
 
   &:hover {
     opacity: 0.6;
