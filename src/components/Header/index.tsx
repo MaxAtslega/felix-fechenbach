@@ -23,8 +23,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href={'/erkunde'}>
-                <FormattedMessage id="header.nav.explore" />
+              <Link href={'/lebenslauf'}>
+                <FormattedMessage id="header.nav.cv" />
               </Link>
             </li>
             <li>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Item, CardContainer, Header, Body, StyledLink } from '@/components/Cards/Cards.styles'
 import Link from 'next/link'
+import { FormattedMessage } from 'react-intl'
 interface Props {
   title: string
   description: string
@@ -23,7 +24,9 @@ const Card = ({ index, title, description, slug, image }: Props) => {
         <Body>
           <p>{description}</p>
           <Link legacyBehavior href={'/ausstellung/' + slug}>
-            <StyledLink>Weiter lesen</StyledLink>
+            <StyledLink>
+              <FormattedMessage id="exhibition.readMore" />
+            </StyledLink>
           </Link>
         </Body>
       </CardContainer>

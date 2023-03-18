@@ -3,7 +3,7 @@
   "head.meta.description": "Digital exhibition about Felix Fechenbach",
 
   "header.nav.exhibition": "Exhibition",
-  "header.nav.explore": "Explore",
+  "header.nav.cv": "CV",
   "header.nav.movie": "Film",
 
   "index.hero.title": "Felix Fechenbach",
@@ -13,12 +13,14 @@
 
   "exhibition.title": "Exhibition",
   "exhibition.introduction": "Felix Fechenbach was a journalist and social democrat who spent his life opposing Nazi terror. He was murdered by SS men in the Kleinenberg forest near Scherfede on 7 August 1933. His legacy lives on in a digital exhibition digitised by the students of the Felix Fechenbach Berufskolleg in Detmold.",
+  "exhibition.readMore" : "Read more",
 
-  "movie.title": "Felix Fechenbach Movie",
+  "movie.title": "Movie: \"... shot on the run ...\" [DE]",
   "movie.error": "Sorry, your browser doesn't support embedded videos.",
 
-  "explore.title": "Explore",
-  "explore.introduction": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+  "cv.title": "Curriculum Vitae",
+  "cv.introduction1": "Felix Fechenbach worked as a journalist and social democrat in Detmold from 1929 to 1933 and was a determined and courageous fighter against the rising National Socialism. As a Jew, pacifist, social democrat and critic of the German authoritarian state, Felix Fechenbach embodied all the principles, character traits and traditions that the National Socialists hated. In 1933 Felix Fechenbach was murdered by Lippian Nazis.",
+  "cv.introduction2": "Fechenbach came from a small background in Bad Mergentheim in northern Württemberg. He was born in 1894 to a family of craftsmen. An apprenticeship as a merchant took him to Frankfurt, where his commitment to social democracy began. After an injury, he was transferred from the front to Munich in 1915, where he had lived since 1912. Fechenbach intensifies his political work and joins the pacifist Kurt Eisner. During the successful revolution in Munich in November 1918, Fechenbach acted as Eisner's right-hand man. Eisner, now Prime Minister of the Free State of Bavaria, retains Fechenbach as office manager. Under internal tensions and the terror of right-wing forces, Eisner's government collapses in 1919. Eisner is assassinated, Fechenbach, who had seen the danger, is imprisoned for several weeks. In 1922, national conservative forces instigate a trial against him. He is alleged to have supplied the German war opponents with forged documents about Germany's war guilt. Fechenbach is sentenced to eleven years in prison for treason. The trial and the subsequent dispute over Fechenbach's release become a touchstone for the independence of the judiciary and the conditions in the Weimar Republic. Fechenbach was released after two years and subsequently worked as a journalist and writer in Berlin. In 1929 he became a reporter for the \"Lippisches Volksblatt\", in Detmold. From then on, he antagonised the National Socialists, especially with the satirical character of the \"Nazi Jüsken\". On the pretext that he was to be transported to Munich, Fechenbach was picked up from protective custody in Detmold on 7 August. A short time later he is murdered in the Kleinenberg forest near Paderborn. The preoccupation with history led to the publication of a brochure by the Lippe Young Socialists. Later, streets and schools were also named after Felix Fechenbach, exhibitions were created and a film about Fechenbach was made. The film is called \"... shot on the run ...\".",
 
   "notfound.title": "Page not found",
   "notfound.message": "Unfortunately, the page you are looking for does not exist. Or maybe there was a mistake in the link you clicked/entered?",

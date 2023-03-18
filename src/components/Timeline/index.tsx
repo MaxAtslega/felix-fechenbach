@@ -1,5 +1,5 @@
 import React from 'react'
-import { TimelineList } from '@/components/Exhibition/Timeline/timeline.styles'
+import { TimelineList } from '@/components/Timeline/timeline.styles'
 
 const Timeline = ({ timeline }: { timeline: { time: string; body: string }[] }) => (
   <TimelineList>

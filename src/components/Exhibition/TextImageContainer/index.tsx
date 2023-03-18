@@ -4,7 +4,7 @@ import {
   ImageContainer,
   TextContainer,
 } from '@/components/Exhibition/TextImageContainer/textImageContainer.styles'
-import Timeline from '@/components/Exhibition/Timeline'
+import Timeline from '@/components/Timeline'
 
 const TextImageContainer = ({
   children,
