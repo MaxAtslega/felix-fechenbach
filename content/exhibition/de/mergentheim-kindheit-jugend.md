@@ -8,9 +8,9 @@ short: Bereits im Alter von 18 Jahren engagierte sich Felix Fechenbach in der
   aktiv an...
 timeline:
   - time: 28. Januar 1894
-    body: Geburt in Mergentheim als Sohn eines jüdischen Backers
+    body: Geburt in Mergentheim als Sohn eines jüdischen Bäckers
   - time: 1907 - 1911
-    body: Lehre in einer Würzburger Schuhwareneroßhandlung
+    body: Lehre in einer Würzburger Schuhwarengroßhandlung
   - body: Anstellung in Frankfurt als Handlungsgehilfe
     time: "1911"
   - body: Tätigkeit im Arbeitersekretariat der Gewerkschaft (Zentralverband der
