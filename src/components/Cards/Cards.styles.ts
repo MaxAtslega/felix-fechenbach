@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 export const Item = styled.div`
   display: flex;
@@ -49,7 +50,7 @@ export const Header = styled.div`
   font-weight: 600;
 `
 
-export const StyledLink = styled.a`
+export const StyledLink = styled(Link)`
   color: #000000;
   text-decoration: none;
   cursor: pointer;

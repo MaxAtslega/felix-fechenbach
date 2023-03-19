@@ -35,7 +35,7 @@ const Hero = () => {
             </FButton>
           </div>
         </Wrapper>
-        <Image src={FechenbachImage} alt="Felix Fechenbach" />
+        <Image loading={'lazy'} src={FechenbachImage} alt="Felix Fechenbach" />
       </Content>
     </Container>
   )

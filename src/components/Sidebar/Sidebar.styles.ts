@@ -67,3 +67,13 @@ export const LanguageSelector = styled.button`
     opacity: 0.8;
   }
 `
+
+export const GitHubButton = styled.button`
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+`

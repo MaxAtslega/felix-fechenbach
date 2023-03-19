@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import { SiGithub } from 'react-icons/si'
 import Link from 'next/link'
-import { Footer, Title, Container, Content, LanguageSelector } from './Sidebar.styles'
+import { Footer, Title, Container, Content, LanguageSelector, GitHubButton } from './Sidebar.styles'
 import { useIntl } from 'react-intl'
 import { useRouter } from 'next/router'
 import { setCookie } from 'cookies-next'
@@ -34,9 +34,9 @@ const Sidebar = () => {
               </LanguageSelector>
             </li>
             <li>
-              <Link href={'https://github.com/MaxAtslega/felix-fechenbach'}>
+              <GitHubButton onClick={() => router.push('https://github.com/MaxAtslega/felix-fechenbach')}>
                 <SiGithub color={'#181717'} />
-              </Link>
+              </GitHubButton>
             </li>
           </ul>
         </Footer>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Item, CardContainer, Header, Body, StyledLink } from '@/components/Cards/Cards.styles'
-import Link from 'next/link'
 import { FormattedMessage } from 'react-intl'
 interface Props {
   title: string
@@ -23,11 +22,9 @@ const Card = ({ index, title, description, slug, image }: Props) => {
         <img src={image} alt={'title'} />
         <Body>
           <p>{description}</p>
-          <Link legacyBehavior href={'/ausstellung/' + slug}>
-            <StyledLink>
-              <FormattedMessage id="exhibition.readMore" />
-            </StyledLink>
-          </Link>
+          <StyledLink href={'/ausstellung/' + slug}>
+            <FormattedMessage id="exhibition.readMore" />
+          </StyledLink>
         </Body>
       </CardContainer>
     </Item>
