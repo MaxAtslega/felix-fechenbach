@@ -10,8 +10,16 @@ const timelineDE = [
     body: 'geboren in Mergentheim',
   },
   {
-    time: '1894 - 1910',
-    body: 'Kindheit, Schule und kaufmännische Ausbildung in Würzburg',
+    time: '1903-1907',
+    body: 'Schulzeit - jüdische Elementarschule in der Domerschulstraße',
+  },
+  {
+    time: 'bis 1910',
+    body: 'kaufmännische Ausbildung - Schuhwarengroßhandlung in Würzburg',
+  },
+  {
+    time: '1910',
+    body: 'Umzug – Semmelstraße 21, Würzburg',
   },
   {
     time: '1911',
@@ -24,10 +32,6 @@ const timelineDE = [
   {
     time: '1914 - 1915',
     body: 'Soldat im Ersten Weltkrieg; Verwundung an der Westfront',
-  },
-  {
-    time: '1915 - 1918',
-    body: 'Haft im Zuchthaus Ebrach; vorzeitige Entlassung aufgrund öffentlichen Drucks gegen das Urteil',
   },
   {
     time: '1918 - 1922',
@@ -57,44 +61,48 @@ const timelineEN = [
     body: 'born in Mergentheim',
   },
   {
-    time: '1894 - 1910',
-    body: 'Childhood, school and commercial training in Würzburg',
+    time: '1903-1907',
+    body: 'School years - Jewish primary schools in Domerschulstraße',
+  },
+  {
+    time: 'until 1910',
+    body: 'commercial training - wholesale shoe shop in Würzburg',
+  },
+  {
+    time: '1910',
+    body: 'Relocation - Semmelstraße 21, Würzburg',
   },
   {
     time: '1911',
-    body: 'Work in Frankfurt; Dismissal for taking part in a strike',
+    body: 'Work in Frankfurt; dismissal due to participation in a strike',
   },
   {
     time: '1912 - 1914',
-    body: "Activity in the workers' secretariat in Munich; active participation in the youth section of the SPD",
+    body: "Work in the workers' secretariat in Munich; active participation in the youth section of the SPD",
   },
   {
     time: '1914 - 1915',
-    body: 'soldier in WWI; wounded on the western front',
-  },
-  {
-    time: '1915 - 1918',
-    body: 'Imprisonment in Ebrach prison; early release due to public pressure against the verdict',
+    body: 'Soldier in the First World War; wounded on the Western Front',
   },
   {
     time: '1918 - 1922',
-    body: 'Co-worker of Kurt Eisner in the Bavarian Revolution; journalistic work for newspapers in Germany and abroad; conviction for "treason"',
+    body: 'Associate of Kurt Eisner in the Bavarian Revolution; journalistic work for newspapers at home and abroad; convicted of "treason"',
   },
   {
     time: '1922 - 1924',
-    body: 'Imprisonment in Ebrach prison; early release due to public pressure against the verdict',
+    body: 'Imprisonment in Ebrach penitentiary; early release due to public pressure against the sentence',
   },
   {
     time: '1924 - 1929',
-    body: 'Publishing editor at Dietz-Verlag in Berlin reports for the "Vorwaerts" and support of the "Kinderfreunde-Movement"',
+    body: 'Editor at the Dietz publishing house in Berlin; reports for the "Vorwärts" and support for the "Kinderfreunde" movement',
   },
   {
     time: '1929 - 1933',
-    body: 'Editor at the Detmold "Volksblatt" and active opponent of the National Socialists; arrest and protective custody; Letters to his wife Irma, stories and poems',
+    body: 'Editor at the Detmold "Volksblatt" and active opponent of the National Socialists; arrest and protective custody; letters to his wife Irma, stories and poems',
   },
   {
-    time: '07.08.1933',
-    body: "shot while trying to escape during transport from Detmold to Dachau in the Kleinenberg Forest between Paderborn and Scherfede', buried in the Jewish cemetery in Rimbeck",
+    time: '08/07/1933',
+    body: 'Shot during transport from Detmold to Dachau in the Kleinenberg forest between Paderborn and Scherfede, buried in the Jewish cemetery in Rimbeck',
   },
 ]
 
