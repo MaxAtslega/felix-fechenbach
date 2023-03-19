@@ -34,7 +34,10 @@ const Sidebar = () => {
               </LanguageSelector>
             </li>
             <li>
-              <GitHubButton onClick={() => router.push('https://github.com/MaxAtslega/felix-fechenbach')}>
+              <GitHubButton
+                aria-label="GitHub"
+                onClick={() => router.push('https://github.com/MaxAtslega/felix-fechenbach')}
+              >
                 <SiGithub color={'#181717'} />
               </GitHubButton>
             </li>
