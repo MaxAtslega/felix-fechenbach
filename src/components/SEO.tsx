@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
-const DOMAIN = 'https://fechenbach.atslega.dev'
+const DOMAIN = 'https://fechenbach.atslega-media.de'
 const siteName = 'Felix Fechenbach'
 const ogType = 'website'
 
@@ -12,7 +12,7 @@ interface Props {
 export default function SEO({ title }: Props) {
   const { locale } = useRouter()
 
-  const description = ''
+  const description = 'Digitale Ausstellung über das Leben von Felix Fechenbach'
   const canonical = DOMAIN + (locale === 'en' ? '/en' : '')
 
   return (
