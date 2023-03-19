@@ -3,3 +3,5 @@ describe('template spec', () => {
     cy.visit('http://localhost:3000')
   })
 })
+
+export {}
