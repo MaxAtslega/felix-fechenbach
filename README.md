@@ -13,3 +13,7 @@ Clone the repo and run `yarn install`
 
 ## Start
 After the successful installation of the packages, run the development server: `yarn dev`
+
+## Screenshot
+<img width="100%" src="https://github.com/MaxAtslega/felix-fechenbach/blob/main/screenshot.png" alt="Felix Fechenbach">
+
