@@ -3,6 +3,7 @@ import Container from '@/components/Container'
 import React from 'react'
 import { FormattedMessage, useIntl } from 'react-intl'
 import Timeline from '@/components/Timeline'
+import SEO from '@/components/SEO'
 
 const timelineDE = [
   {
@@ -110,6 +111,7 @@ const Lebenslauf: NextPage = () => {
   const intl = useIntl()
   return (
     <Container>
+      <SEO title="Lebenslauf" />
       <h1>
         <FormattedMessage id="cv.title" />
       </h1>

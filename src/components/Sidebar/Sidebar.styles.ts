@@ -7,22 +7,26 @@ export const Container = styled.aside`
   left: calc(100% - 70px);
   width: 70px;
   height: 100vh;
-  border-left: 3px solid #000000;
-  background: #ffffff;
+  border-left: 3px solid ${(props) => props.theme.colors.neutral};
+  background: ${(props) => props.theme.colors.white};
 
-  @media (max-width: 56rem) {
+  ${(props) => props.theme.media.lg} {
     left: calc(100% - 50px);
     width: 50px;
   }
+
+  ${(props) => props.theme.media.xs} {
+    display: none;
+  }
 `
 export const Content = styled.div`
-  padding-top: 20px;
+  padding-top: ${(props) => props.theme.spacing.md};
   width: 100%;
   text-align: center;
 `
 
 export const Footer = styled.div`
-  bottom: 20px;
+  bottom: ${(props) => props.theme.spacing.md};
   width: 100%;
   position: absolute;
 
@@ -30,9 +34,9 @@ export const Footer = styled.div`
     padding: 0;
   }
   li {
-    padding-top: 20px;
+    padding-top: ${(props) => props.theme.spacing.md};
     list-style: none;
-    font-size: 14px;
+    font-size: ${(props) => props.theme.fontSizes.sm};
 
     svg {
       height: 1.4rem;
@@ -43,11 +47,11 @@ export const Footer = styled.div`
 
 export const Title = styled.span`
   writing-mode: vertical-lr;
-  font-size: 2.1rem;
+  font-size: ${(props) => props.theme.fontSizes.custom(2)};
   font-weight: 600;
 
-  @media (max-width: 56rem) {
-    font-size: 1.6rem;
+  ${(props) => props.theme.media.lg} {
+    font-size: ${(props) => props.theme.fontSizes.lg};
   }
 `
 
@@ -56,15 +60,15 @@ export const LanguageSelector = styled.button`
   padding: 0;
   margin: 0;
   background-color: transparent;
-  color: #000000;
+  color: ${(props) => props.theme.colors.neutral};
   outline: none;
   cursor: pointer;
 
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: ${(props) => props.theme.fontSizes.md};
 
   &:hover {
-    opacity: 0.8;
+    opacity: 0.7;
   }
 `
 
@@ -73,7 +77,11 @@ export const GitHubButton = styled.button`
   padding: 0;
   margin: 0;
   background-color: transparent;
-  color: #000000;
+  color: ${(props) => props.theme.colors.neutral};
   outline: none;
   cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
 `

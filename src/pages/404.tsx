@@ -4,11 +4,13 @@ import { FormattedMessage } from 'react-intl'
 import React from 'react'
 import { FButton } from '@/components/Start/Hero/Hero.styles'
 import { useRouter } from 'next/router'
+import SEO from '@/components/SEO'
 
 const NotFound: NextPage = () => {
   const router = useRouter()
   return (
     <Container>
+      <SEO title="404" />
       <h1>
         <FormattedMessage id="notfound.title" />
       </h1>

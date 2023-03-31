@@ -15,7 +15,7 @@ export const Item = styled.div`
 
 export const CardContainer = styled.div`
   width: 100%;
-  margin: 20px 10px;
+  margin: ${(props) => props.theme.spacing.md} ${(props) => props.theme.spacing.xs};
 
   img {
     width: 100%;
@@ -29,12 +29,12 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  margin: 0 -10px;
+  margin: 0 -${(props) => props.theme.spacing.xs};
 `
 
 export const Body = styled.div`
   p {
-    margin: 10px 0;
+    margin: ${(props) => props.theme.spacing.xs} 0;
   }
   span {
     font-weight: 600;
@@ -44,9 +44,9 @@ export const Body = styled.div`
 export const Header = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: ${(props) => props.theme.spacing.xs};
 
-  font-size: 1.1rem;
+  font-size: ${(props) => props.theme.fontSizes.lg};
   font-weight: 600;
 `
 
@@ -55,7 +55,8 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   font-weight: 600;
-  poi &:hover {
-    opacity: 0.8;
+
+  &:hover {
+    opacity: 0.7;
   }
 `

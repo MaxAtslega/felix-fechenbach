@@ -7,6 +7,7 @@ import Image from 'next/image'
 import TextImageContainer from '@/components/Exhibition/TextImageContainer'
 import React from 'react'
 import Layout from '@/components/Exhibition/Layout'
+import SEO from '@/components/SEO'
 
 const InformationBox = styled.div`
   padding: 0.7rem;
@@ -32,6 +33,7 @@ const Exhibition = ({ frontmatter, source }: { frontmatter: any; source: any }) 
 
   return (
     <>
+      <SEO title="Ausstellung" />
       <Layout>
         <h1>{frontmatter.title}</h1>
         <TextImageContainer timeline={frontmatter?.timeline} src={frontmatter.previewimage} alt={frontmatter.image_alt}>

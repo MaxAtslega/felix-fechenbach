@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Content, Sidebar, Wrapper } from '@/components/Exhibition/Layout/layout.styles'
+import { Container, Sidebar, Wrapper } from '@/components/Exhibition/Layout/Layout.styles'
 import Link from 'next/link'
 import { FormattedMessage } from 'react-intl'
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -14,7 +14,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           </span>
         </Sidebar>
         <Wrapper>
-          <Content>{children}</Content>
+          <div>{children}</div>
         </Wrapper>
       </Container>
     </>

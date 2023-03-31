@@ -1,10 +1,13 @@
 import Container from '@/components/Container'
 import { NextPage } from 'next'
 import { useIntl } from 'react-intl'
+import SEO from '@/components/SEO'
+import React from 'react'
 
 const PrivacyPolicyEN: NextPage = () => {
   return (
     <Container>
+      <SEO title="Privacy Policy" />
       <h1>Privacy Policy</h1>
       <h2>1. An overview of data protection</h2>
       <h3>General information</h3>
@@ -299,6 +302,7 @@ const PrivacyPolicyEN: NextPage = () => {
 const PrivacyPolicyDE: NextPage = () => {
   return (
     <Container>
+      <SEO title="Datenschutz" />
       <h1>Datenschutz&shy;erkl&auml;rung</h1>
       <h2>1. Datenschutz auf einen Blick</h2>
       <h3>Allgemeine Hinweise</h3>
