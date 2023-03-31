@@ -1,10 +1,13 @@
 import Container from '@/components/Container'
 import { NextPage } from 'next'
 import { useIntl } from 'react-intl'
+import SEO from '@/components/SEO'
+import React from 'react'
 
 const SiteNoticeEN: NextPage = () => {
   return (
     <Container>
+      <SEO title="Site Notice" />
       <h1>Site Notice</h1>
       <h2>Information pursuant to Sect. 5 German Telemedia Act (TMG)</h2>
       <p>
@@ -28,6 +31,7 @@ const SiteNoticeEN: NextPage = () => {
 const SiteNoticeDE: NextPage = () => {
   return (
     <Container>
+      <SEO title="Impressum" />
       <h1>Impressum</h1>
       <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
       <p>

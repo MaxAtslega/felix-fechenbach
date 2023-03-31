@@ -16,14 +16,14 @@ export const Sidebar = styled.div`
   z-index: 1;
 
   span {
-    margin-top: 20px;
+    margin-top: ${(props) => props.theme.spacing.md};
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: ${(props) => props.theme.fontSizes.lg};
   }
 
-  @media (max-width: 1100px) {
+  ${(props) => props.theme.media.xl} {
     display: none;
   }
 `
@@ -36,17 +36,16 @@ export const Wrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
 
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
+  padding-left: ${(props) => props.theme.spacing.md};
+  padding-right: ${(props) => props.theme.spacing.md};
+  padding-top: ${(props) => props.theme.spacing.md};
 
   @media (max-width: 1320px) {
-    padding: 20px 20px 20px 105px;
+    padding: ${(props) => props.theme.spacing.md} ${(props) => props.theme.spacing.md}
+      ${(props) => props.theme.spacing.md} 105px;
   }
 
-  @media (max-width: 1100px) {
+  ${(props) => props.theme.media.xl} {
     padding: 20px;
   }
 `
-
-export const Content = styled.div``

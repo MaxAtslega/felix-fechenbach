@@ -8,17 +8,11 @@ export const Container = styled.div`
   right: 70px;
   min-height: 100vh;
 
-  @media (max-width: 56rem) {
+  ${(props) => props.theme.media.lg} {
     right: 50px;
   }
-`
 
-export const Main = styled.div`
-  min-width: 80%;
-  max-width: 1120px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
+  ${(props) => props.theme.media.xs} {
+    right: 0;
+  }
 `

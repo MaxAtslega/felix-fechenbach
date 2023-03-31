@@ -2,19 +2,19 @@ import styled from 'styled-components'
 
 export const Title = styled.h1`
   margin: 0;
-  font-size: 4.5rem;
+  font-size: ${(props) => props.theme.fontSizes.custom(4.5)};
 
-  @media (max-width: 1100px) {
-    font-size: 2rem;
+  ${(props) => props.theme.media.xl} {
+    font-size: ${(props) => props.theme.fontSizes.custom(2.5)};
   }
 `
 
 export const SubTitle = styled.p`
-  font-size: 1.5rem;
-  margin: 0 0 20px 0;
+  font-size: ${(props) => props.theme.fontSizes.lg};
+  margin: 0 0 ${(props) => props.theme.spacing.md} 0;
 
-  @media (max-width: 1100px) {
-    font-size: 1.2rem;
+  ${(props) => props.theme.media.xl} {
+    font-size: ${(props) => props.theme.fontSizes.md};
   }
 `
 
@@ -23,7 +23,7 @@ export const Sidebar = styled.div`
   display: flex;
   width: 65px;
   height: 100%;
-  border-right: 3px solid #000000;
+  border-right: 3px solid ${(props) => props.theme.colors.neutral};
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@ export const Sidebar = styled.div`
     font-size: 1.8rem;
   }
 
-  @media (max-width: 1100px) {
+  ${(props) => props.theme.media.xl} {
     display: none;
   }
 `
@@ -45,7 +45,7 @@ export const Container = styled.section`
   position: relative;
   height: 80vh;
   width: 100%;
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid ${(props) => props.theme.colors.neutral};
 
   @media (max-width: 980px) {
     height: auto;
@@ -64,9 +64,9 @@ export const Content = styled.div`
     position: relative;
     height: 100%;
     width: auto;
-    border-left: 3px solid #000000;
+    border-left: 3px solid ${(props) => props.theme.colors.neutral};
 
-    @media (max-width: 980px) {
+    ${(props) => props.theme.media.lg} {
       display: none;
     }
   }
@@ -76,37 +76,38 @@ export const Wrapper = styled.div`
   display: flex;
   width: 100%;
   padding-top: 8%;
-  padding-right: 20px;
+  padding-right: ${(props) => props.theme.spacing.md};
   padding-left: 105px;
 
   img {
     display: none;
-    border: 3px solid #000000;
+    border: 3px solid ${(props) => props.theme.colors.neutral};
     width: 40%;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: ${(props) => props.theme.spacing.md};
+    margin-bottom: ${(props) => props.theme.spacing.md};
     height: auto;
     float: right;
 
-    @media (max-width: 980px) {
+    ${(props) => props.theme.media.lg} {
       display: inline-block;
     }
   }
 
-  @media (max-width: 1260px) {
-    padding: 20px 20px 20px 105px;
+  ${(props) => props.theme.media.xxl} {
+    padding: ${(props) => props.theme.spacing.md} ${(props) => props.theme.spacing.md}
+      ${(props) => props.theme.spacing.md} 105px;
   }
 
-  @media (max-width: 1100px) {
-    padding: 20px;
+  ${(props) => props.theme.media.xl} {
+    padding: ${(props) => props.theme.spacing.md};
   }
 `
 
 export const FButton = styled.button`
   display: block;
-  border: 3px solid #000000;
+  border: 3px solid ${(props) => props.theme.colors.neutral};
 
-  margin: 20px 0 20px 0;
+  margin: ${(props) => props.theme.spacing.md} 0 ${(props) => props.theme.spacing.md} 0;
   padding: 10px 30px;
   width: auto;
 

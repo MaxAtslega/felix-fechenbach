@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const TimelineList = styled.ul`
-  margin: 1rem 0;
+  margin: ${(props) => props.theme.spacing.md} 0;
 
   &,
   li {
@@ -10,17 +10,17 @@ export const TimelineList = styled.ul`
   }
 
   li {
-    padding-bottom: 1.5rem;
-    border-left: 2px solid #000000;
+    padding-bottom: ${(props) => props.theme.spacing.md};
+    border-left: 2px solid ${(props) => props.theme.colors.neutral};
     position: relative;
-    padding-left: 20px;
+    padding-left: ${(props) => props.theme.spacing.md};
     margin-left: 10px;
     &:before {
       content: '';
       width: 15px;
       height: 15px;
-      background: white;
-      border: 2px solid #000000;
+      background: ${(props) => props.theme.colors.white};
+      border: 2px solid ${(props) => props.theme.colors.neutral};
       border-radius: 50%;
       position: absolute;
       left: -10px;

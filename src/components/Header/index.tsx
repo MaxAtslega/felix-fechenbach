@@ -11,11 +11,11 @@ const Header = () => {
     <Container>
       <Content>
         <MobileMenuContainer>
-          <MenuButton style={menuOpen ? { opacity: '.6' } : {}} onClick={() => setMenuOpen(!menuOpen)}>
+          <MenuButton style={menuOpen ? { opacity: '.7' } : {}} onClick={() => setMenuOpen(!menuOpen)}>
             <HiMenu />
           </MenuButton>
         </MobileMenuContainer>
-        <Nav style={menuOpen ? { display: 'block' } : { display: 'none' }}>
+        <Nav style={menuOpen ? { display: 'flex' } : { display: 'none' }}>
           <ul>
             <li>
               <Link href={'/'}>

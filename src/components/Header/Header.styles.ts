@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Container = styled.header`
   width: 100%;
   height: 65px;
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid ${(props) => props.theme.colors.neutral};
 
-  @media (max-width: 450px) {
+  ${(props) => props.theme.media.sm} {
     height: auto;
     border-bottom: none;
   }
@@ -15,10 +15,10 @@ export const Content = styled.div`
   position: relative;
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 ${(props) => props.theme.spacing.md};
   height: 100%;
 
-  @media (max-width: 450px) {
+  ${(props) => props.theme.media.sm} {
     padding: 0;
     display: block;
   }
@@ -26,44 +26,46 @@ export const Content = styled.div`
 
 export const MobileMenuContainer = styled.div`
   width: 100%;
-  padding: 20px;
-  border-bottom: 3px solid #000000;
+  padding: ${(props) => props.theme.spacing.md};
+  border-bottom: 3px solid ${(props) => props.theme.colors.neutral};
   display: none;
 
-  @media (max-width: 450px) {
+  ${(props) => props.theme.media.sm} {
     display: block;
   }
 `
 
 export const Nav = styled.nav`
   width: 100%;
+  display: block;
 
   ul {
     padding: 0;
     margin: 0;
+    width: 100%;
 
     li {
       list-style: none;
       float: left;
-      padding-right: 20px;
+      padding-right: ${(props) => props.theme.spacing.md};
       font-size: 1.1rem;
     }
   }
 
-  @media (max-width: 450px) {
+  ${(props) => props.theme.media.smMin} {
+    display: block !important;
+  }
+
+  ${(props) => props.theme.media.sm} {
     display: none;
-    background: #ffffff;
+    background: ${(props) => props.theme.colors.white};
 
     ul li {
       float: none;
-      padding: 20px 0;
+      padding: ${(props) => props.theme.spacing.md} 0;
       text-align: center;
-      border-bottom: 3px solid #000000;
+      border-bottom: 3px solid ${(props) => props.theme.colors.neutral};
     }
-  }
-
-  @media (min-width: 450px) {
-    display: block !important;
   }
 `
 
@@ -73,9 +75,9 @@ export const MenuButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-  color: #000000;
+  color: ${(props) => props.theme.colors.neutral};
 
   &:hover {
-    opacity: 0.6;
+    opacity: 0.7;
   }
 `
